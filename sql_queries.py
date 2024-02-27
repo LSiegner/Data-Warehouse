@@ -7,13 +7,13 @@ config.read('dwh.cfg')
 
 # DROP TABLES
 
-staging_events_table_drop = ""
-staging_songs_table_drop = ""
-songplay_table_drop = ""
-user_table_drop = ""
-song_table_drop = ""
-artist_table_drop = ""
-time_table_drop = ""
+staging_events_table_drop = "DROP TABLE staging_events_table"
+staging_songs_table_drop = "DROP TABLE staging_songs_table"
+songplay_table_drop = "DROP TABLE staging_songplay_table"
+user_table_drop = "DROP TABLE user_table"
+song_table_drop = "DROP TABLE song_table"
+artist_table_drop = "DROP TABLE artist_table"
+time_table_drop = "DROP TABLE time_table"
 
 # CREATE TABLES
 
